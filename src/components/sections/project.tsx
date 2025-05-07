@@ -15,12 +15,12 @@ export default function Project() {
                 width={130}
                 height={70}
                 alt={`${project.title} image`}
-                className="w-[130px] h-[70px] object-cover"
+                className="min-w-[130px] w-[130px] min-h-[70px] h-[70px] object-cover"
               />
               <div>
                 <h3 className="font-semibold">{project.title}</h3>
-                {/* stack */}
-                <div className="flex gap-2 mt-2 flex-wrap">
+                {/* stack desktop*/}
+                <div className="gap-2 mt-2 flex-wrap hidden sm:flex">
                   {project.stack.map((item, index) => (
                     <p
                       key={index}
@@ -31,6 +31,17 @@ export default function Project() {
                   ))}
                 </div>
               </div>
+            </div>
+            {/* stack mobile */}
+            <div className="flex gap-2 mt-2 flex-wrap sm:hidden">
+              {project.stack.map((item, index) => (
+                <p
+                  key={index}
+                  className="px-2 border border-gray-400 text-sm font-medium text-gray-400 rounded-full"
+                >
+                  {item}
+                </p>
+              ))}
             </div>
             <p className="text-gray-400 font-light">{project.description}</p>
             {project.link && project.link.length > 0 && (
