@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     "Persib Developer",
     "Awan Dinata Teknologi",
   ],
+  verification: {
+    google: "AH5K04DS7sNlPiZMyvlEgfjNbz_KkxE1AExyT0kBvhk",
+  },
   authors: [{ name: "Pusaka Manggala" }],
   creator: "Pusaka Manggala",
   publisher: "Pusaka Manggala",
@@ -31,7 +34,7 @@ export const metadata: Metadata = {
     title: "Pusaka Manggala | Front-end Developer",
     description:
       "Professional Front-end Developer specializing in crafting seamless, user-friendly digital experiences.",
-    // url: "https://yourportfolio.com",
+    url: "https://pusakamanggala.vercel.app",
     siteName: "Pusaka Manggala Portfolio",
     // images: [
     //   {
@@ -41,7 +44,7 @@ export const metadata: Metadata = {
     //     alt: "Pusaka Manggala - Front-end Developer",
     //   },
     // ],
-    locale: "id_ID",
+    locale: "en_US",
     type: "website",
   },
   robots: {
@@ -55,11 +58,9 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  // icons: {
-  //   icon: "/favicon.ico",
-  //   shortcut: "/favicon-16x16.png",
-  //   apple: "/apple-touch-icon.png",
-  // },
+  icons: {
+    icon: "/app-icon.ico",
+  },
 };
 
 export default function RootLayout({
