@@ -11,6 +11,7 @@ const navLinks: NavLink[] = [
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
   { id: "project", label: "Projects" },
+  { id: "articles", label: "Articles" },
 ];
 
 export default function Nav() {
