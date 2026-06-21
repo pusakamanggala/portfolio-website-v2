@@ -6,13 +6,13 @@ export default function Contact() {
     <section id="contact">
       <p className="text-gray-400 font-normal">
         <span className="text-white font-normal text-lg">
-          Got a project that needs a front-end developer?
+          Got a project that needs a frontend developer?
         </span>{" "}
         I’m available for freelance work and collaborations. Let’s connect and
         create something awesome together!
       </p>
       <a
-        href="mailto:pusakamanggala@gmail.com"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=pusakamanggala@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 mt-2"
@@ -21,7 +21,7 @@ export default function Contact() {
       >
         <CgMail className="text-3xl" aria-hidden="true" />
         <span className="flex items-center gap-1">
-          Say Helllo
+          Say Hello
           <FiExternalLink aria-hidden="true" />
         </span>
       </a>

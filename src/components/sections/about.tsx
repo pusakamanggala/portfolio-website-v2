@@ -4,46 +4,47 @@ export default function About() {
       <h2 className="section-title">ABOUT</h2>
       <div className="text-base font-light text-gray-400 space-y-3">
         <p>
-          I’m a passionate Front-End Developer with a knack for crafting
+          I&apos;m a passionate Frontend Developer with a knack for crafting
           seamless, user-friendly digital experiences. Every pixel, interaction,
           and line of code is an opportunity to solve problems with clarity and
-          creativity—whether I’m building dynamic interfaces or fine-tuning
+          creativity—whether I&apos;m building dynamic interfaces or fine-tuning
           performance for real-world users.
         </p>
         <p>
-          I work at{" "}
-          <strong className="text-white">Awan Dinata Teknologi</strong> as a
-          Front-End Developer, translating design visions into functional,
-          performant web applications. My day-to-day involves close
-          collaboration with designers to refine UI/UX, pairing with backend
-          teams to integrate APIs, and iterating based on user feedback—all
-          while keeping code maintainable and scalable.
+          Currently working at{" "}
+          <a
+            href="https://www.meagency.co.id/"
+            className="text-white hover:text-teal-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            MEA Digital Marketing
+          </a>{" "}
+          as a Medior Frontend Developer, where I build and maintain modern web applications that support the company&apos;s digital marketing and technology ecosystem. Working closely with designers, backend engineers, and product stakeholders, I translate business requirements into responsive, scalable, and high-performance user experiences.
         </p>
         <p>
-          Currently working with{" "}
-          <strong className="text-white">Persib Bandung</strong> on their
-          digital platforms, including{" "}
+          My primary focus is the development and maintenance of{" "}
           <a
-            href="https://www.planetpersib.com/"
+            href="https://linkreator.id/"
             className="text-white hover:text-teal-300"
             target="_blank"
             rel="noopener noreferrer"
           >
-            planetpersib.com
+            Linkreator.id
           </a>
-          ,{" "}
+          , an all-in-one platform that helps creators, affiliates, and businesses manage their online presence, digital products, payments, and customer engagement. I contribute to frontend architecture, API integration, feature development, performance optimization, and ongoing platform improvements to ensure a reliable and intuitive experience for users.
+        </p>
+        <p>
+          Being part of a technology driven digital marketing company has strengthened my ability to combine technical execution with product thinking. At{" "}
           <a
-            href="https://persib.co.id/"
+            href="https://www.meagency.co.id/"
             className="text-white hover:text-teal-300"
             target="_blank"
             rel="noopener noreferrer"
           >
-            persib.co.id
+            MEA Digital Marketing
           </a>
-          , and other club-related platforms. Working with a beloved football
-          brand has taught me how to merge technical precision with fan-centric
-          creativity—ensuring every pixel aligns with the team’s spirit and
-          audience expectations.
+          , I help deliver solutions that not only meet engineering standards but also support business growth, user engagement, and long-term scalability. MEA specializes in digital marketing services and technology solutions that help businesses grow in the digital economy.
         </p>
       </div>
     </section>
