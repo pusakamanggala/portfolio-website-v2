@@ -12,7 +12,7 @@ export default function Contact() {
         create something awesome together!
       </p>
       <a
-        href="mailto:pusakamanggala@gmail.com"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=pusakamanggala@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 mt-2"
@@ -21,7 +21,7 @@ export default function Contact() {
       >
         <CgMail className="text-3xl" aria-hidden="true" />
         <span className="flex items-center gap-1">
-          Say Helllo
+          Say Hello
           <FiExternalLink aria-hidden="true" />
         </span>
       </a>
