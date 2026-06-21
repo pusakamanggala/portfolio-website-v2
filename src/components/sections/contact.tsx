@@ -6,7 +6,7 @@ export default function Contact() {
     <section id="contact">
       <p className="text-gray-400 font-normal">
         <span className="text-white font-normal text-lg">
-          Got a project that needs a front-end developer?
+          Got a project that needs a frontend developer?
         </span>{" "}
         I’m available for freelance work and collaborations. Let’s connect and
         create something awesome together!

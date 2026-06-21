@@ -10,7 +10,7 @@ export default function Hero() {
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">
             Pusaka Manggala
           </h1>
-          <h2 className="text-xl font-medium mt-1">Front-end Developer</h2>
+          <h2 className="text-xl font-medium mt-1">Frontend Developer</h2>
           <p className="mt-3 max-w-[300px] text-gray-400">
             Crafting pixels, shaping experiences, and turning ideas into
             interactive realities

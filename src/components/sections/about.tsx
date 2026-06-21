@@ -4,7 +4,7 @@ export default function About() {
       <h2 className="section-title">ABOUT</h2>
       <div className="text-base font-light text-gray-400 space-y-3">
         <p>
-          I&apos;m a passionate Front-End Developer with a knack for crafting
+          I&apos;m a passionate Frontend Developer with a knack for crafting
           seamless, user-friendly digital experiences. Every pixel, interaction,
           and line of code is an opportunity to solve problems with clarity and
           creativity—whether I&apos;m building dynamic interfaces or fine-tuning
@@ -20,7 +20,7 @@ export default function About() {
           >
             MEA Digital Marketing
           </a>{" "}
-          as a Medior Front-End Developer, where I build and maintain modern web applications that support the company&apos;s digital marketing and technology ecosystem. Working closely with designers, backend engineers, and product stakeholders, I translate business requirements into responsive, scalable, and high-performance user experiences.
+          as a Medior Frontend Developer, where I build and maintain modern web applications that support the company&apos;s digital marketing and technology ecosystem. Working closely with designers, backend engineers, and product stakeholders, I translate business requirements into responsive, scalable, and high-performance user experiences.
         </p>
         <p>
           My primary focus is the development and maintenance of{" "}

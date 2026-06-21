@@ -8,18 +8,29 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Pusaka Manggala | Front-end Developer",
+  metadataBase: new URL("https://pusakamanggala.vercel.app"),
+  title: {
+    default: "Pusaka Manggala | Frontend Developer",
+    template: "%s | Pusaka Manggala",
+  },
   description:
-    "Front-end Developer specializing in crafting seamless, user-friendly digital experiences.",
+    "Professional Frontend Developer specializing in crafting seamless, user-friendly, and high-performance digital experiences.",
+  applicationName: "Pusaka Manggala Portfolio",
   keywords: [
+    "Pusaka Manggala",
+    "Frontend Developer",
     "Front-end Developer",
+    "Frontend Engineer",
+    "Front-end Engineer",
     "Web Developer",
-    "Tailwind CSS",
+    "Software Engineer",
     "React Developer",
     "Next.js Developer",
+    "TypeScript Developer",
+    "JavaScript Developer",
+    "Tailwind CSS",
     "Freelance Developer",
     "UI/UX",
-    "JavaScript Developer",
     "Portfolio",
     "Persib Developer",
     "Awan Dinata Teknologi",
@@ -27,13 +38,21 @@ export const metadata: Metadata = {
   verification: {
     google: "AH5K04DS7sNlPiZMyvlEgfjNbz_KkxE1AExyT0kBvhk",
   },
-  authors: [{ name: "Pusaka Manggala" }],
+  authors: [{ name: "Pusaka Manggala", url: "https://pusakamanggala.vercel.app" }],
   creator: "Pusaka Manggala",
   publisher: "Pusaka Manggala",
+  alternates: {
+    canonical: "/",
+  },
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: "Pusaka Manggala | Front-end Developer",
+    title: "Pusaka Manggala | Frontend Developer",
     description:
-      "Professional Front-end Developer specializing in crafting seamless, user-friendly digital experiences.",
+      "Professional Frontend Developer specializing in crafting seamless, user-friendly, and high-performance digital experiences.",
     url: "https://pusakamanggala.vercel.app",
     siteName: "Pusaka Manggala Portfolio",
     // images: [
@@ -41,11 +60,17 @@ export const metadata: Metadata = {
     //     url: "https://yourportfolio.com/og-image.jpg",
     //     width: 1200,
     //     height: 630,
-    //     alt: "Pusaka Manggala - Front-end Developer",
+    //     alt: "Pusaka Manggala - Frontend Developer",
     //   },
     // ],
     locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pusaka Manggala | Frontend Developer",
+    description:
+      "Professional Frontend Developer specializing in crafting seamless, user-friendly, and high-performance digital experiences.",
   },
   robots: {
     index: true,
@@ -60,6 +85,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/app-icon.ico",
+    shortcut: "/app-icon.ico",
+    apple: "/apple-touch-icon.png",
   },
 };
 

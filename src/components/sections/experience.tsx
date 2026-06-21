@@ -5,7 +5,7 @@ export default function Experience() {
       <div className="space-y-4">
         <div>
           <h3 className="font-semibold">
-            Medior Front-End Developer • PT MEA Digital Marketing
+            Medior Frontend Developer • PT MEA Digital Marketing
           </h3>
           <p className="text-gray-400 text-sm">NOVEMBER 2025 - PRESENT</p>
           <p className="text-gray-400 mt-3 font-light">
@@ -23,7 +23,7 @@ export default function Experience() {
         </div>
         <div>
           <h3 className="font-semibold">
-            Front-end Developer • PT Awan Dinata Teknologi
+            Frontend Developer • PT Awan Dinata Teknologi
           </h3>
           <p className="text-gray-400 text-sm">DECEMBER 2023 - AUGUST 2025</p>
           <ul className="list-disc ml-4 space-y-4 mt-3 experience-list">
